@@ -7,9 +7,9 @@ import argparse
 
 def wind3_mode2(serial, pwd_len):
 
-	ambiguous_chars = '120olijvyz';
-	lead_replacements = '3479';
-	post_replacements = 'bdfhxkmprstuw';
+	ambiguous_chars = '120olijvyz'
+	lead_replacements = '3479'
+	post_replacements = 'bdfhxkmprstuw'
 	
 	md5 = hashlib.md5()
 	md5.update(serial.encode())
